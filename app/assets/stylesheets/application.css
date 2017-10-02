@@ -11,5 +11,8 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= require age_verification
+ *= require bootstrap.min
+ *= require round_about
  *= require_self
  */

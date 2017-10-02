@@ -9,6 +9,9 @@ Rails.application.configure do
   # Do not eager load code on boot.
   config.eager_load = false
 
+    # Do not fallback to assets pipeline if a precompiled asset is missed.
+    config.assets.compile = true
+
   # Show full error reports.
   config.consider_all_requests_local = true
 
