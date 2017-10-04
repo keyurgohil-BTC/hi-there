@@ -15,4 +15,7 @@ Spree.config do |config|
   # config.track_inventory_levels = false
 end
 
+# Enable confirmation email on signup
+Spree::Auth::Config[:confirmable] = true
+
 Spree.user_class = "Spree::LegacyUser"
